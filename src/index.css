@@ -1,16 +1,21 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#intro {
-    width: 100%;
-    margin: 0 auto;
+/* Custom colours*/
+:root {
+    --main-white: #ffffff;
+    --main-yellow: #f9dc5c;
+    --main-pink: #f08080;
+    --main-dark: #101919;
+  }
+  
+  /* Base */
+  
+  * {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-color: --main-dark;
+    margin: 0;
     padding: 0;
-    text-align: center;
-    font-size: 3em;
-}
-
-h2 {
-    font-size: 1em;
-}
-
+  }
+  
+  html {
+    scroll-behaviour: smooth;
+  }
