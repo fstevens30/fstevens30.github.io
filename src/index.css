@@ -65,6 +65,7 @@ a {
 
 #intro {
     background-color: var(--main-yellow);
+    text-align: center;
 }
 
 /*Navigation Section*/
@@ -96,6 +97,7 @@ a {
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
+  margin: auto;
 }
 
 .projects-grid {
@@ -145,8 +147,8 @@ a {
   border: 5px solid var(--main-yellow);
   transition: background 0.3s ease-out;
   text-align: center;
-  display: flex;
-  justify-content: center;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
 }
 
 .btn-show-all:hover {
@@ -162,6 +164,12 @@ a {
   margin-left: 10px;
   transform: translateX(0);
   transition: transform 0.3s ease-out;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
 }
 
 /* Contact Section */
