@@ -1,42 +1,43 @@
 /* Custom colours*/
 :root {
-    --main-white: #ffffff;
-    --main-yellow: #f9dc5c;
-    --main-dark: #101919;
-  }
-  
-  /* Base */
+  --main-white: #ffffff;
+  --main-yellow: #f9dc5c;
+  --main-dark: #101919;
+}
 
-  html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    width: 100%;
-  }
-  
-  * {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 1.1em;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  h1 {
-    color: var(--main-dark);
-    font-size: 2.5em;
-    text-align: center;
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
-  }
+/* Base */
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: var(--main-dark);
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
 h2 {
-    font-size: 1.5em;
-    color: var(--main-dark);
-    text-align: center;
-    padding: 1em;
-    background-color: var(--main-white);
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
+  font-size: 1.5em;
+  color: var(--main-dark);
+  text-align: center;
+  padding: 1em;
+  background-color: var(--main-white);
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 a {
@@ -47,59 +48,82 @@ a {
 /*Header Section*/
 
 #name {
-    font-size: 4em;
-    text-align: center;
-    padding: 1em;
-    color: var(--main-dark);
-    width: 100%;
-    margin: auto;
-  }
+  font-size: 4em;
+  text-align: center;
+  padding: 1em;
+  color: var(--main-white);
+  width: 100%;
+  margin: auto;
+  align-self: center;
+}
+
 #name:hover {
-    color: var(--main-white);
-    transform: scale(1.1);
-    transition: all 0.5s ease-in-out;
-  }
-
-
-
+  color: var(--main-yellow);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
 
 #intro {
-    background-color: var(--main-yellow);
-    text-align: center;
+  background-color: var(--main-dark);
+  text-align: center;
+  align-items: center;
+}
+
+/*Sub Header */
+
+#subhead {
+  background-color: var(--main-yellow);
 }
 
 /*Navigation Section*/
 
 #btn-section {
-    background-color: var(--main-white);
-    padding: 1em;
-    text-align: center;
-    margin-bottom: 1em;
-    font-size: 1.5em;
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 1.5em;
 }
 
-#btn-section a:hover{
-    color: var(--main-yellow);
-    transform: scale(1.5);
-    transition: all 0.5s ease-in-out;
+#btn-section a {
+  color: var(--main-dark);
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 5px solid var(--main-yellow);
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  background-color: var(--main-yellow);
+}
+
+#btn-section a:hover {
+  transform: scale(1.5);
+  transition: all 0.5s ease-in-out;
+  border-color: var(--main-yellow);
+  background-color: var(--main-white);
 }
 
 
 /*About Section*/
 #about-me {
-    background-color: var(--main-white);
-    padding: 1em;
-    text-align: center;
-    margin-bottom: 1em;
-    font-size: 1.5em;
+  background-color: var(--main-white);
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 1.5em;
 }
 
 /* Projects Section */
+
+#projects {
+  background-color: var(--main-dark);
+  padding: 2em;
+}
 
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
   margin: auto;
+
 }
 
 .projects-grid {
@@ -136,6 +160,10 @@ a {
   filter: grayscale(0%);
 }
 
+.project-title {
+  color: var(--main-white);
+}
+
 
 .btn {
   padding: 1rem 2rem;
@@ -156,13 +184,14 @@ a {
 .btn-show-all:hover {
   background: var(--main-white);
   border: 5px solid var(--main-yellow);
+  transition: background 0.3s ease-out;
 }
 
-.btn-show-all:hover > i {
+.btn-show-all:hover>i {
   transform: translateX(2px);
 }
 
-.btn-show-all > i {
+.btn-show-all>i {
   margin-left: 10px;
   transform: translateX(0);
   transition: transform 0.3s ease-out;
