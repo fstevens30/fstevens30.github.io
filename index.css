@@ -22,6 +22,20 @@ html {
   text-align: center;
 }
 
+h2 {
+  font-size: 1.3em;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--main-dark);
+  text-decoration: none;
+}
+
+/* Header */
+
 #header {
   background-color: var(--main-yellow);
   color: var(--main-dark);
@@ -33,8 +47,42 @@ html {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 4em;
   font-weight: bold;
   margin: 0;
   padding: 0;
+}
+
+/* Sub Header */
+
+#sub-header {
+  background-color: var(--main-white);
+  color: var(--main-dark);
+  height: 8rem;
+  width: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+/* Button section */
+
+#nav-section {
+  background-color: var(--main-white);
+  color: var(--main-dark);
+  height: 8rem;
+  width: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.nav-button {
+  background-color: var(--main-white);
+  color: var(--main-dark);
+  height: 100%;
+  width: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
 }
