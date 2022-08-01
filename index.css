@@ -156,3 +156,32 @@ h1 {
 .project-title {
   color: var(--main-dark);
 }
+
+/* Skills section */
+
+.skills-section {
+  text-align: center;
+  margin: auto;
+}
+
+.lang-list {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-bottom: auto;
+}
+
+.lang-list li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  color: var(--main-dark);
+}
+
+/* Certificates section */
+
+/* Contact Section */
+
