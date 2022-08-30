@@ -60,3 +60,8 @@ ul {
     align-items: center;
     justify-content: center;
 }
+
+.stack img {
+    width: 4em;
+    height: 4em;
+}
