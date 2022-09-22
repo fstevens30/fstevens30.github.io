@@ -125,7 +125,3 @@
         justify-content: center;
         align-items: center;
     }
-    
-    .currentPage {
-        color: var(--primary-color);
-    }
