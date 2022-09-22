@@ -47,6 +47,10 @@
         padding: 0;
     }
     
+    li {
+        display: flex;
+    }
+    
     a {
         text-decoration: none;
         color: inherit;
@@ -103,7 +107,7 @@
     button:hover {
         background-color: var(--secondary-bg-color);
         color: var(--primary-color);
-        box-shadow: 0 0 0 8px var(--primary-color);
+        box-shadow: 0 0 0 0.5vw var(--primary-color);
     }
     
     .hidden {
