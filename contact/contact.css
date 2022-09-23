@@ -25,3 +25,14 @@ textarea {
     justify-content: center;
     align-items: center;
 }
+
+.social a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 5vw;
+    margin: 0.5vw;
+}
+
+.social a:hover {
+    color: var(--main-header-color);
+}
