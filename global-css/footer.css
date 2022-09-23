@@ -33,14 +33,14 @@
     }
     
     .footer i {
-        font-size: 1em;
-        margin: 0 1em 0 1em;
+        font-size: 5vw;
+        margin: 0 0.5vw 0 0.5vw;
         align-items: center;
-        color: var(--primary-color)
+        color: var(--secondary-color)
     }
     
     .footer i:hover {
-        color: var(--secondary-color);
+        color: var(--primary-color);
         text-decoration: none;
         transition: ease-in-out 0.3s;
         scale: 1.2;
