@@ -1,6 +1,6 @@
 /* Header */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     .header {
         height: 100%;
         padding: 1em;
@@ -40,7 +40,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .header {
         height: 100%;
         padding: 1em;
@@ -105,13 +105,6 @@
     width: 8vw;
     height: auto;
     margin: 0.25em;
-    filter: grayscale(50%);
-}
-
-.stack-icons img:hover {
-    filter: grayscale(0%);
-    transition: 0.1s;
-    ;
 }
 
 
