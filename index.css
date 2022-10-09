@@ -72,7 +72,26 @@
 }
 
 
+/* About */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+
 /* Tech stack */
+
+.stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
 
 .stack-icons {
     display: flex;
@@ -97,3 +116,11 @@
 
 
 /* Projects */
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}

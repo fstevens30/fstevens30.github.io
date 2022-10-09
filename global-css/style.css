@@ -81,6 +81,12 @@
         padding-right: 2em;
         text-align: justify;
     }
+    
+    .container button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     /* Buttons */
     
     button {
@@ -92,7 +98,6 @@
         padding: 1em;
         padding-left: 0;
         padding-right: 0;
-        text-align: center;
         text-decoration: none;
         cursor: pointer;
         height: auto;
@@ -124,9 +129,4 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    
-    .currentPage {
-        background-color: var(--primary-color);
-        color: var(--main-header-color);
     }
