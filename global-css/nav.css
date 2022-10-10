@@ -1,5 +1,6 @@
-        /* Nav bar */
-        
+    /* Nav bar desktop */
+    
+    @media screen and (min-width: 900px) {
         .nav {
             top: 0;
             width: 100%;
@@ -9,7 +10,6 @@
             position: sticky;
             z-index: 1;
         }
-        
         .nav-list {
             padding-left: 2em;
             height: 100%;
@@ -18,14 +18,12 @@
             justify-content: flex-start;
             align-items: center;
         }
-        
         .nav-list li {
             height: 100%;
             float: left;
             list-style: none;
             align-items: center;
         }
-        
         .nav-list li a {
             color: var(--secondary-bg-color);
             text-align: center;
@@ -37,13 +35,15 @@
             align-items: center;
             padding: 0 1em;
         }
-        
-        .nav-list li a:has(.currentPage) {
-            background-color: var(--secondary-bg-color);
-            color: var(--primary-color);
-        }
-        
         .nav-list li a:hover {
             background-color: var(--secondary-bg-color);
             color: var(--main-header-color);
         }
+    }
+    /* Nav bar mobile */
+    
+    @media screen and (max-width: 900px) {
+        .nav {
+            display: none;
+        }
+    }
