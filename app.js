@@ -15,3 +15,14 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 hiddenElements.forEach((el) => observer.observe(el));
+
+// Burger menu functionality
+
+function showMobileNavItems() {
+    var x = document.getElementById("items");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}

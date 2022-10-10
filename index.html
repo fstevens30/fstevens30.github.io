@@ -3,6 +3,8 @@
 
 <head>
     <title>Flynn Stevens | Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="global-css/style.css">
     <link rel="stylesheet" type="text/css" href="global-css/nav.css">
@@ -43,7 +45,10 @@
 
     <!-- Nav for mobile -->
     <div class="mobile-nav">
-        <div class="mobile-nav-items">
+        <a href="javascript:void(0);" class="icon" onclick="showMobileNavItems()">
+            <i class="fas fa-bars"></i>
+        </a>
+        <div id="items">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contact/contact.html">Contact</a></li>
