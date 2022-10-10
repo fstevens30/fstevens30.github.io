@@ -81,6 +81,29 @@
     padding: 1em;
 }
 
+.button-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left-button right-button";
+}
+
+.left-button {
+    grid-area: left-button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.right-button {
+    grid-area: right-button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
 
 /* Tech stack */
 
