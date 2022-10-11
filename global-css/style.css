@@ -76,12 +76,6 @@
         align-items: center;
     }
     
-    .container p {
-        padding-left: 2em;
-        padding-right: 2em;
-        text-align: justify;
-    }
-    
     .container button {
         display: flex;
         justify-content: center;

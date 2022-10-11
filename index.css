@@ -162,7 +162,9 @@
 }
 
 .card p {
-    padding: 0.5em;
+    padding: 0;
+    margin: 0;
+    justify-self: center;
 }
 
 .projects-section {
