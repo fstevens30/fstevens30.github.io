@@ -44,19 +44,12 @@
     <!-- End Header Section-->
 
     <!-- Nav for mobile -->
-    <div class="mobile-nav">
-        <div class="topnav">
-            <a href="#home" class="active">Logo</a>
-            <!-- Navigation links (hidden by default) -->
-            <div id="myLinks">
-                <a href="/index.html">Home</a>
-                <a href="/contact/contact.html">Contact</a>
-                <a href="/work/work.html">Work History</a>
-            </div>
-            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+    <div id="mobile-menu">
+        <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="/index.html">Home</a>
+            <a href="/contact/contact.html">Contact</a>
+            <a href="/work/work.html">Work</a>
         </div>
     </div>
     <!-- End Nav for mobile -->
