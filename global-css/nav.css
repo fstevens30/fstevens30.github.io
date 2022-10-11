@@ -1,83 +1,91 @@
-    /* Nav bar desktop */
-    
-    @media screen and (min-width: 900px) {
-        /* hide mobile nav */
-        .mobile-nav {
-            display: none;
+        /* Nav bar desktop */
+        
+        @media screen and (min-width: 900px) {
+            /* hide mobile nav */
+            .mobile-nav {
+                display: none;
+            }
+            /* Nav bar */
+            .nav {
+                top: 0;
+                width: 100%;
+                height: 4.5em;
+                background: var(--main-header-color);
+                margin: 0;
+                position: sticky;
+                z-index: 1;
+            }
+            .nav-list {
+                padding-left: 2em;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .nav-list li {
+                height: 100%;
+                float: left;
+                list-style: none;
+                align-items: center;
+            }
+            .nav-list li a {
+                color: var(--secondary-bg-color);
+                text-align: center;
+                text-decoration: none;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0 1em;
+            }
+            .nav-list li a:hover {
+                background-color: var(--secondary-bg-color);
+                color: var(--main-header-color);
+            }
         }
-        /* Nav bar */
-        .nav {
-            top: 0;
-            width: 100%;
-            height: 4.5em;
-            background: var(--main-header-color);
-            margin: 0;
-            position: sticky;
-            z-index: 1;
+        /* Nav bar mobile */
+        
+        @media screen and (max-width: 900px) {
+            .nav {
+                display: none;
+            }
+            /* Hide links do display when using hamburger menu */
+            /* Style the navigation menu */
+            .topnav {
+                overflow: hidden;
+                background-color: var(--main-header-color);
+                position: relative;
+            }
+            /* Hide the links inside the navigation menu (except for logo/home) */
+            .topnav #myLinks {
+                display: none;
+            }
+            /* Style navigation menu links */
+            .topnav a {
+                color: var(--main-header-color);
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                display: block;
+            }
+            /* Style the hamburger menu */
+            .topnav a.icon {
+                background: var(--primary-color);
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            /* Add a grey background color on mouse-over */
+            .topnav a:hover {
+                background-color: var(--main-header-color);
+                color: var(--primary-color);
+            }
+            /* Style the active link (or home/logo) */
+            .active {
+                background-color: var(--primary-color);
+                color: var(--main-header-color);
+            }
         }
-        .nav-list {
-            padding-left: 2em;
-            height: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-        }
-        .nav-list li {
-            height: 100%;
-            float: left;
-            list-style: none;
-            align-items: center;
-        }
-        .nav-list li a {
-            color: var(--secondary-bg-color);
-            text-align: center;
-            text-decoration: none;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 0 1em;
-        }
-        .nav-list li a:hover {
-            background-color: var(--secondary-bg-color);
-            color: var(--main-header-color);
-        }
-    }
-    /* Nav bar mobile */
-    
-    @media screen and (max-width: 900px) {
-        .nav {
-            display: none;
-        }
-        /* Hide links do display when using hamburger menu */
-        .mobile-nav {
-            position: sticky;
-            z-index: 1;
-            top: 0;
-            width: 3.5em;
-        }
-        #items {
-            display: none;
-        }
-        /* Hamburger menu */
-        .mobile-nav a {
-            color: var(--primary-color);
-            text-decoration: none;
-            padding: 0.5em;
-            font-size: 2.5vw;
-            display: block;
-        }
-        .mobile-nav a .icon {
-            display: block;
-            background: var(--main-header-color);
-            position: fixed;
-            top: 0;
-            right: 0;
-        }
-        .mobile-nav a:hover {
-            color: var(--main-header-color);
-            background-color: var(--primary-color);
-        }
-    }

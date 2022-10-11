@@ -16,10 +16,9 @@ const observer = new IntersectionObserver((entries) => {
 
 hiddenElements.forEach((el) => observer.observe(el));
 
-// Burger menu functionality
-
-function showMobileNavItems() {
-    var x = document.getElementById("items");
+//burger menu functionality 
+function myFunction() {
+    var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
         x.style.display = "none";
     } else {

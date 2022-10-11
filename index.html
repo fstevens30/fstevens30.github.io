@@ -45,15 +45,18 @@
 
     <!-- Nav for mobile -->
     <div class="mobile-nav">
-        <a href="javascript:void(0);" class="icon" onclick="showMobileNavItems()">
-            <i class="fas fa-bars"></i>
-        </a>
-        <div id="items">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact/contact.html">Contact</a></li>
-                <li><a href="work/work.html">Work History</a></li>
-            </ul>
+        <div class="topnav">
+            <a href="#home" class="active">Logo</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="/index.html">Home</a>
+                <a href="/contact/contact.html">Contact</a>
+                <a href="/work/work.html">Work History</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
     </div>
     <!-- End Nav for mobile -->
@@ -126,7 +129,7 @@
                 <div class="projects-grid">
                 </div>
                 <br>
-                <a href="https://github.com/fstevens30?tab=repositories&q=&type=&language=&sort=stargazers"><button class="hidden" >View More on GitHub</button></a>
+                <a href="https://github.com/fstevens30?tab=repositories&q=&type=&language=&sort=stargazers"><button class="hidden" >View More</button></a>
             </div>
         </div>
         <!-- End Projects Container -->
