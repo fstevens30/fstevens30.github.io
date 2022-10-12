@@ -71,8 +71,7 @@
                 cursor: pointer;
             }
             /* Dropdown button on hover & focus */
-            .dropbtn:hover,
-            .dropbtn:focus {
+            .dropbtn:hover {
                 background-color: var(--main-header-color);
                 color: var(--primary-color)
             }
