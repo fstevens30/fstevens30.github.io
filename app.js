@@ -37,3 +37,5 @@ window.onclick = function(event) {
         }
     }
 }
+
+// Alert the user when a message is sent
