@@ -39,3 +39,7 @@ window.onclick = function(event) {
 }
 
 // Alert the user when a message is sent
+
+function sendMessageAlert() {
+    alert("Thank you for your message! \n Please use the Form Submit verification to continue. \n  Once verified, I will get back to you as soon as possible!");
+}
