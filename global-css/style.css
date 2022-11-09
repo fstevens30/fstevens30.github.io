@@ -81,6 +81,25 @@
         justify-content: center;
         align-items: center;
     }
+    /* Mobile setup */
+    
+    @media screen and (max-width: 900px) {
+        ul {
+            font-size: 18px;
+        }
+        p {
+            font-size: 18px;
+        }
+        h1 {
+            font-size: 32px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+    }
     /* Buttons */
     
     button {
