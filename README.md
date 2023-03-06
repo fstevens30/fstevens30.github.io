@@ -5,4 +5,5 @@
 -----------------------------
 - Coded with HTML, CSS and JavaScript.
 - Also will be submitted as part of an assessment for WEB503, NMIT.
-
+-----------------------------
+- I have started trying to implement a dark mode however it is a bit tricky on vanilla JS so I have begon rewriting my code in a new repo in React.
