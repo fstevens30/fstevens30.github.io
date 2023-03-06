@@ -43,3 +43,16 @@ window.onclick = function(event) {
 function sendMessageAlert() {
     alert("Thank you for your message! \n Please use the Form Submit verification to continue. \n  Once verified, I will get back to you as soon as possible!");
 }
+
+// Toggle theme 
+
+function toggleTheme() {
+    console.log("toggleTheme");
+    //Check if the the html element has the class "dark-theme"
+    if (document.documentElement.classList.contains("dark-theme")) {
+        //If it does, remove the class
+        document.documentElement.classList.remove("dark-theme");
+        //And add the light-theme class
+        document.documentElement.classList.add("light-theme");
+    }
+}

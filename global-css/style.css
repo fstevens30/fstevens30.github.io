@@ -1,12 +1,26 @@
 /* Setting up the variables */
 
  :root {
+    font: 1.75vw "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* Dark mode and light mode */
+
+.light-mode {
     --main-header-color: #47A8BD;
     --main-bg-color: #F5F5F5;
     --secondary-bg-color: #FFFFFF;
     --text-color: #202020;
     --primary-color: #F3B61F;
-    font: 1.75vw "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.dark-mode {
+    --main-header-color: #47A8BD;
+    --main-bg-color: #202020;
+    --secondary-bg-color: #303030;
+    --text-color: #F5F5F5;
+    --primary-color: #F3B61F;
 }
 
 
@@ -58,6 +72,10 @@ li {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+p {
+    color: var(--text-color);
 }
 
 
