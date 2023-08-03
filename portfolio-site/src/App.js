@@ -1,10 +1,8 @@
-import Navigation from './components/nav/nav';
+import Navigation from './components/nav/nav.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <Navigation />
-    </div>
+    <Navigation />
   );
 }
 

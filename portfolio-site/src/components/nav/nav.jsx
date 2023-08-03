@@ -1,18 +1,13 @@
-import Nav from 'react-bootstrap/Nav';
+import Button from 'react-bootstrap/Button';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 const Navigation = () => {
     return (
-        <Nav className="justify-content-center" activeKey="/home">
-        <Nav.Item>
-            <Nav.Link href="/home">Active</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link eventKey="link-1">Link</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link eventKey="link-2">Link</Nav.Link>
-        </Nav.Item>
-        </Nav>
+        <ButtonGroup>
+        <Button variant="primary">About</Button>
+        <Button variant="primary">Projects</Button>
+        <Button variant="primary">Contact</Button>
+        </ButtonGroup>
     );
     }
 
