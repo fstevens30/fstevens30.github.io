@@ -25,3 +25,14 @@ textarea {
     justify-content: center;
     align-items: center;
 }
+
+#submitButton {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: var(--primary-color);
+    color: var(--secondary-bg-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

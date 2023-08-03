@@ -97,6 +97,7 @@
         cursor: pointer;
         height: auto;
         width: 20vw;
+        margin: 0 auto;
     }
     
     button:hover {
