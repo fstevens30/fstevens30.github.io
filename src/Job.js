@@ -6,6 +6,9 @@ class Job {
     }
     
     toString () {
-        return `<div><span>`
+        let result = `<div><span>${this.role}</span>`
+        result += `\n<h2>${this.company}</h2>`
+        result += `\n<h3>${this.dateRange}</h3></div>`
+        return result
     }
 }
