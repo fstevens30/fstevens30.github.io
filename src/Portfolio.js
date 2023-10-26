@@ -12,4 +12,8 @@ class Portfolio {
         result += `<p>${this.bio}</p>`
         return result
     }
+
+    addJob (name, company, dateRange) {
+        this.jobs.push(new Job(name, company, dateRange))
+    }
 }
