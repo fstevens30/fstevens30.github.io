@@ -1,0 +1,23 @@
+{
+  "name": "fstevens30.github.io",
+  "version": "1.0.0",
+  "description": "**A site to showcase my work**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fstevens30/fstevens30.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fstevens30/fstevens30.github.io/issues"
+  },
+  "homepage": "https://github.com/fstevens30/fstevens30.github.io#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
