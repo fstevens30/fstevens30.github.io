@@ -1,0 +1,41 @@
+/* Main Styles */
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 0 20rem 0 20rem;
+}
+
+.darkMode {
+    background-color: #000;
+    color: #fff;
+}
+
+/* THEME TOGGLE */
+
+.themeToggle::hover {
+    cursor: pointer;
+}
+
+/* PROGRESS BAR */
+
+.progressBar {
+    display: flex;
+    align-items: center;
+}
+
+.progressBarFill {
+    width: 100%;
+    background-color: #ddd;
+    margin: 0.5rem;
+}
+
+.progressBarFillInner {
+    text-align: right;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    width: 45%;
+    background-color: #4CAF50;
+}
