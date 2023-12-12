@@ -1,3 +1,12 @@
+/* Colors */
+
+:root {
+    --dark: #000;
+    --light: #fff;
+    --light-alt: #ddd;
+    --primary: #4CAF50;
+}
+
 /* Main Styles */
 
 body {
@@ -8,8 +17,12 @@ body {
 }
 
 .darkMode {
-    background-color: #000;
-    color: #fff;
+    background-color: var(--dark);
+    color: var(--light);
+
+    a {
+        color: var(--light);
+    }
 }
 
 /* NAV */
@@ -31,6 +44,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    color: var(--dark);
+}
+
+nav ul li a:hover {
+    color: var(--primary);
+    text-decoration: underline;
 }
 
 .themeToggle::hover {
@@ -46,14 +65,14 @@ nav ul li a {
 
 .progressBarFill {
     width: 100%;
-    background-color: #ddd;
+    background-color: var(--light-alt);
     margin: 0.5rem;
 }
 
 .progressBarFillInner {
     text-align: right;
     padding: 0.5rem;
-    color: white;
+    color: var(--dark);
     width: 45%;
-    background-color: #4CAF50;
+    background-color: var(--primary);
 }
