@@ -3,7 +3,7 @@
 :root {
     --dark: #000;
     --light: #fff;
-    --light-alt: #ddd;
+    --light-alt: #979797;
     --primary: #4CAF50;
 }
 
@@ -22,6 +22,14 @@ body {
 
     a {
         color: var(--light);
+    }
+
+    .textSecondary {
+        color: var(--light-alt);
+    }
+
+    .textPrimary {
+        color: var(--light)
     }
 }
 
@@ -71,6 +79,10 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.hero img {
+    max-width: 100px;
 }
 
 
