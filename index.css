@@ -93,5 +93,32 @@
     ;
 }
 
-
 /* Projects */
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    margin: 1em;
+}
+
+.projects-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: var(--secondary-bg-color);
+    border-radius: 10px;
+}
+
+.project button {
+    width: 100%;
+}
