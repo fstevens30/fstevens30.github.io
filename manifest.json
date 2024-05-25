@@ -1,0 +1,9 @@
+{
+    "name": "Flynn Stevens",
+    "short_name": "Flynn Stevens",
+    "start_url": "index.html?utm_source=homescreen",
+    "scope": "./",
+    "theme_color": "#FFEE32",
+    "background_color": "#FFEE32",
+    "display": "standalone"
+}
