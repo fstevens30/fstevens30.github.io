@@ -4,6 +4,7 @@
     "theme_color": "#FFEE32",
     "background_color": "#FFEE32",
     "display": "standalone",
+    "start_url": "/",
     "icons": [
         {
             "src": "windows11/SmallTile.scale-100.png",
