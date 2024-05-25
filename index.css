@@ -80,15 +80,15 @@
 }
 
 .stack-icons img {
-    max-width: 4.5em;
+    max-width: fit-content;
     height: auto;
-    padding: 0.5em;
-    margin: 0.25em;
+    padding: 0.25em;
 }
 
 @media screen and (min-width: 768px) {
 
     .stack-icons img {
+        max-width: 4.5em;
         filter: grayscale(50%);
     }
 
