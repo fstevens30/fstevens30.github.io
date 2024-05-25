@@ -10,17 +10,14 @@
     }
 
     .left-footer {
-        grid-area: left-footer;
         display: flex;
         flex-direction: row;
         justify-content: left;
-        align-items: left;
         padding: .5em;
         width: 32.5%;
     }
 
     .right-footer {
-        grid-area: right-footer;
         display: flex;
         flex-direction: row;
         justify-content: right;
@@ -41,4 +38,10 @@
         text-decoration: none;
         transition: ease-in-out 0.3s;
         scale: 1.2;
+    }
+
+    @media screen and (max-width: 768px) {
+        .footer {
+            flex-direction: column;
+        }
     }

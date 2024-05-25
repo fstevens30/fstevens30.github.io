@@ -122,3 +122,10 @@
 .project button {
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .projects-grid {
+        display: flex;
+        flex-direction: column;
+    }
+}

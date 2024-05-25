@@ -111,7 +111,7 @@
     button:hover {
         background-color: var(--secondary-bg-color);
         color: var(--primary-color);
-        box-shadow: 0 0 0 0.5vw var(--primary-color);
+        box-shadow: 0 0 0 1em var(--primary-color);
     }
 
     .hidden {
@@ -133,4 +133,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    /* Mobile optimisation */
+    @media screen and (max-width: 768px) {
+        .container {
+            width: 100%;
+        }
     }
