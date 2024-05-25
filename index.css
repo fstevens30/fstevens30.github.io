@@ -80,17 +80,22 @@
 }
 
 .stack-icons img {
-    width: 4.5em;
+    max-width: 4.5em;
     height: auto;
     padding: 0.5em;
     margin: 0.25em;
-    filter: grayscale(50%);
 }
 
-.stack-icons img:hover {
-    filter: grayscale(0%);
-    transition: 0.1s;
-    ;
+@media screen and (min-width: 768px) {
+
+    .stack-icons img {
+        filter: grayscale(50%);
+    }
+
+    .stack-icons img:hover {
+        filter: grayscale(0%);
+        transition: 0.1s;
+    }
 }
 
 /* Projects */
