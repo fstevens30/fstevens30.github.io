@@ -80,7 +80,7 @@
 }
 
 .stack-icons img {
-    max-width: fit-content;
+    width: 1em;
     height: auto;
     padding: 0.25em;
 }
@@ -88,7 +88,7 @@
 @media screen and (min-width: 768px) {
 
     .stack-icons img {
-        max-width: 4.5em;
+        width: 4em;
         filter: grayscale(50%);
     }
 
@@ -109,8 +109,9 @@
 }
 
 .projects-grid img {
-    width: 100%;
+    width: 75%;
     height: auto;
+    padding: 0.5em;
     border-radius: 10px;
 }
 
